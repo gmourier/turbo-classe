@@ -1,0 +1,42 @@
+{
+  "name": "turbo-classe",
+  "version": "1.0.0",
+  "description": "Instant search quotes from the movie \"La Classe Américaine\".",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmourier/turbo-classe.git"
+  },
+  "author": "gmourier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gmourier/turbo-classe/issues"
+  },
+  "homepage": "https://github.com/gmourier/turbo-classe#readme",
+  "dependencies": {
+    "@meilisearch/instant-meilisearch": "^0.4.2",
+    "bulma": "^0.9.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-instantsearch-dom": "^6.11.0",
+    "react-youtube-player": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^11.1.0",
+    "css-loader": "^5.2.4",
+    "style-loader": "^2.0.0"
+  }
+}
