@@ -95,7 +95,7 @@ const App = () => {
                     searchClient={searchClient}
                 >
                     <Configure
-                        hitsPerPage={9}
+                        hitsPerPage={30}
                         attibutesToHighlight={["citation"]}
                     />
                     <CustomSearchBox
